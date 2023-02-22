@@ -6,6 +6,10 @@
     color: white;
     
 } 
+.nav-bar{
+    position: sticky;
+    top: 0;
+}
 .dropdown-item{
     color: black;
 } 
@@ -18,3 +22,12 @@
 .nav-item {
     padding-left: 50px;
 }
+.signin button{
+    margin-left: 50px;
+    width: 100px;
+    height: 45px;
+    background-color: #DF5264;
+    border-radius: 5px;
+}
+
+

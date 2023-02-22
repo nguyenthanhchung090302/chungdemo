@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form{
+    display: flex;
+    width: 100%;
+    background-color: #28282d;
+    border-top: 3px solid rgb(201, 65, 88);
+}
+.download {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    color: #fefefe;
+    margin-left: 9%;
+    margin-top: 2%;
+}
+.download img{
+    width: 30%;
+    margin-top: 2%;
+}
+.download p{
+    font-weight: 500;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+.resources{
+    width: 20%;
+    color: #A9A9AB;
+    font-size: 1.2vw;
+    margin-top: 2%;
+    cursor: pointer;
+
+}
+.resources label{
+    font-size: 1.6vw;
+    padding-bottom: 2%;
+    color: white;
+}
+.resources p:hover{
+    color: #E65098;
+}
+.legal p:hover{
+    color: #E65098;
+
+}
+.legal label{
+    font-size: 1.6vw;
+    padding-bottom: 2%;
+    color: white;
+}
+.legal{
+    width: 20%;
+    color: #A9A9AB;
+    font-size: 1.2vw;
+    margin-top: 2%;
+    cursor: pointer;
+
+}
+.contact1 p:hover {
+    color: #E65098;
+}
+.contact1 label{
+    font-size: 1.6vw;
+    padding-bottom: 2%;
+    color: white;
+}
+.contact1{
+    width: 20%;
+    color: #A9A9AB;
+    margin-top: 2%;
+    font-size: 1.2vw;
+    cursor: pointer;
+}

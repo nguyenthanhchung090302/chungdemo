@@ -1,7 +1,6 @@
-import React, { Component } from "react";
+// import React, { Component } from "react";
 import "./Navbar.css";
-import logo from "./assets/Capture.PNG"
-
+import logo from "./Capture.PNG";
 
 function Navbar() {
   return (
@@ -9,7 +8,7 @@ function Navbar() {
       <nav className='navbar navbar-expand-lg bg-body-tertiary'>
         <div className='container-fluid'>
           <a className='navbar-brand' href='#'>
-            <img src={logo} alt="" width="150px" />
+            <img src={logo} alt='' width='200px' />
           </a>
           <button
             className='navbar-toggler'
@@ -24,7 +23,7 @@ function Navbar() {
           </button>
           <div className='collapse navbar-collapse' id='navbarNavDropdown'>
             <ul className='navbar-nav'>
-            <li className='nav-item dropdown'>
+              <li className='nav-item dropdown'>
                 <a
                   className='nav-link dropdown-toggle'
                   href='#'
@@ -45,7 +44,6 @@ function Navbar() {
                       Home static bg
                     </a>
                   </li>
-                  
                 </ul>
               </li>
               <li className='nav-item dropdown'>
@@ -98,7 +96,7 @@ function Navbar() {
                   role='button'
                   data-bs-toggle='dropdown'
                   aria-expanded='false'
-                  color="white"
+                  color='white'
                 >
                   . . .
                 </a>
@@ -152,14 +150,14 @@ function Navbar() {
                   role='button'
                   data-bs-toggle='dropdown'
                   aria-expanded='false'
-                  color="white"
+                  color='white'
                 >
-                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <i class='fa-solid fa-magnifying-glass'></i>
                 </a>
                 <ul className='dropdown-menu'>
                   <li>
                     <a className='dropdown-item' href='#'>
-                      <input type="text" placeholder="tìm kiếm"/>
+                      <input type='text' placeholder='tìm kiếm' />
                     </a>
                   </li>
                 </ul>
@@ -171,7 +169,7 @@ function Navbar() {
                   role='button'
                   data-bs-toggle='dropdown'
                   aria-expanded='false'
-                  color="white"
+                  color='white'
                 >
                   EN
                 </a>
@@ -191,8 +189,12 @@ function Navbar() {
                       Russian
                     </a>
                   </li>
-                 
                 </ul>
+              </li>
+              <li className="signin">
+              <button className='sign-in'>
+                    <a className='nav-link' href="#">Sign In</a>
+                </button>
               </li>
             </ul>
           </div>

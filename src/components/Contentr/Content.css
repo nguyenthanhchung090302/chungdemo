@@ -1,0 +1,42 @@
+.contact{
+    background-image:linear-gradient(0, #372E36, #372F37 ), url(https://topshare.vn/wp-content/uploads/2021/12/anime-3d-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    height: 600px;
+
+}
+.new{
+    display: flex;
+}
+.new h1{
+    color: white;  
+    padding-left: 2%;
+}
+.new p{
+    color: white;
+    font-size: 220%;
+    padding-left: 1.5%;
+}
+.slide{
+    display: flex;
+    
+}
+.slide .image{
+    margin-left: 3%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.image b{
+    color: white;
+    font-size: 20px;
+    
+}
+.image p{
+    color: rgb(156, 3, 54);
+}
+.saohong{
+    display: flex;
+}
+.saohong b{
+    margin-left: 10px;
+}

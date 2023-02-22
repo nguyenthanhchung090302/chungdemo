@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tudutong{
+    width: 100%;
+    background-color: #28282d;
+}
+.expected p{
+    font-size: 2.5vw;
+    font-weight: 300;
+    padding-left: 10%;
+    color: white;
+    padding-top: 1%;
+    
+}
+.nexlike{
+    display: flex;
+    
+}
+.nex-item{
+    border-top: 3px solid rgb(201, 65, 88);
+}
+.nex-item h3{
+ color: white;
+ margin-left: 5%;
+ margin-top: 2%;
+}
+.nexlike p{
+    font-size: 1.2vw;
+    font-weight: 100;
+    color: #9b9592;
+    cursor: pointer;
+}
