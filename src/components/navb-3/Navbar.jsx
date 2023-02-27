@@ -1,6 +1,7 @@
 // import React, { Component } from "react";
 import "./Navbar.css";
 import logo from "./Capture.PNG";
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -193,7 +194,7 @@ function Navbar() {
               </li>
               <li className="signin">
               <button className='sign-in'>
-                    <a className='nav-link' href="#">Sign In</a>
+                    <a className='nav-link' href="/login">Sign In</a>
                 </button>
               </li>
             </ul>

@@ -4,7 +4,7 @@ import Navbar from './navb-3/Navbar';
 import Newfim from './newfim/Newfim';
 import Cartintorn from './cartintorn/Cartintorn';
 import Form from './form/Form';
-import Login from './login/Login';
+
 
  function Homepage() {
     return ( 
@@ -14,7 +14,6 @@ import Login from './login/Login';
          <Newfim/>
          <Cartintorn/>
          <Form/>
-         {/* <Login/> */}
 
       </div>
      );

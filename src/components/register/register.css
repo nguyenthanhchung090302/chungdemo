@@ -3,17 +3,16 @@
     padding: 0;
     box-sizing: border-box;
   }
-  .chung{
-    
-    background: url("http://flixgo.volkovdesign.com/main/img/section/section.jpg");
-  }
   .tongform1 {
     width: 100%;
+    background: url(http://flixgo.volkovdesign.com/main/img/section/section.jpg);
+    height: 655px;
     text-align: center;
+    position: relative;
   }
-  .taito1 {
+  .taito {
     width: 28%;
-    /* height: 470px; */
+    height: 530px;
     border: 1px solid white;
     position: absolute;
     top: 50%;
@@ -25,13 +24,24 @@
   -webkit-box-shadow: 0px -4px 0px 0px rgba(227,75,130,0.75);
   -moz-box-shadow: 0px -4px 0px 0px rgba(227,75,130,0.75);
   }
-  .logo-2 {
+  .logo {
     width: 100%;
     margin-top: 10%;
   }
   .input1 {
     width: 100%;
     margin-top: 10%;
+  }
+  .input3 {
+    width: 100%;
+    margin-top: 5%;
+  }
+  .input3 input{
+    padding: 3% 20% 3% 2%;
+    background-color: #2b2b31;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: white;
   }
   .input1 input {
     padding: 3% 20% 3% 2%;
@@ -51,22 +61,36 @@
     border: 1px solid transparent;
     color: white;
   }
-  .chatbook {
+  .chatbook1 {
     width: 100%;
     display: flex;
-    justify-content: space-around;
-    margin-top: 5%;
+    /* margin-top: 5%; */
+    padding-left: 17%;
   }
-  .chatbook label {
+  .proactiti label {
     color: rgba(255, 255, 255, 0.5);
     font-weight: 400;
-    font-size: 1.3vw;
+    font-size: 1.2vw;
   }
-  .signin-1 {
+  .proactiti{
+    display: flex;
+    color: white;
+    padding: 5%;
+    padding-bottom: 1%;
+  }
+  .proactiti p{
+    background-image: -webkit-linear-gradient(0deg, #ff55a5 0%, #ff5860 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #ff5860;
+    opacity: 0.8;
+    font-size: 1.2vw;
+  }
+  .signin {
     width: 100%;
     margin-top: 7%;
   }
-  .signin-1 button {
+  .signin button {
     padding: 3% 26% 3% 26%;
     background-image: linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
     border: none;
@@ -84,24 +108,13 @@
     color: rgba(255, 255, 255, 0.5);
   }
   .dont a {
-    font-size: 1.1vw;
-    background-image: -webkit-linear-gradient(0deg, #ff55a5 0%, #ff5860 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-weight: 200;
     color: #ff5860;
-    opacity: 0.8;
   }
   .forgot {
     width: 100%;
   }
-  .forgot a {
-    background-image: -webkit-linear-gradient(0deg, #ff55a5 0%, #ff5860 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  .forgot p {
+    font-weight: 200;
     color: #ff5860;
-    opacity: 0.8;
-    font-size: 1.5vw;
-  }
-  @media only screen and (max-width: 600px) {
-      
   }
